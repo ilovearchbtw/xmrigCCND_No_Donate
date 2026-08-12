@@ -16,6 +16,13 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifdef XMRIG_DONATESTRATEGY_H
+
+#undef XMRIG_DONATESTRATEGY_H
+
+#endif
+
+/*
 #ifndef XMRIG_DONATESTRATEGY_H
 #define XMRIG_DONATESTRATEGY_H
 
@@ -132,3 +139,6 @@ private:
 } // namespace xmrig
 
 #endif // XMRIG_DONATESTRATEGY_H
+
+*/
+

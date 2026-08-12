@@ -16,6 +16,7 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+/*
 #include <algorithm>
 #include <cassert>
 #include <iterator>
@@ -390,3 +391,6 @@ bool xmrig::DonateStrategy::hasEnabledAlgos() const
 {
   return !m_controller->miner()->algorithms().empty();
 }
+
+*/
+

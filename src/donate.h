@@ -16,8 +16,10 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef XMRIG_DONATE_H
-#define XMRIG_DONATE_H
+//#ifndef XMRIG_DONATE_H
+//#define XMRIG_DONATE_H
+#ifdef XMRIG_DONATE_H
+#undef XMRIG_DONATE_H
 
 
 /*
@@ -39,8 +41,9 @@
  * XMR: 4BEn3sSa2SsHBcwa9dNdKnGvvbyHPABr2JzoY7omn7DA2hPv84pVFvwDrcwMCWgz3dQVcrkw3gE9aTC9Mi5HxzkfF9ev1eH
  *
  */
-constexpr const int kDefaultDonateLevel = 3;
-constexpr const int kMinimumDonateLevel = 1;
+// ATTENTION! (modified from other person, 12.08.2026): you can see the scammer developer's wallet up; this software was open-source malware!
+// constexpr const int kDefaultDonateLevel = 0;
+// constexpr const int kMinimumDonateLevel = 0;
 
 
 #endif // XMRIG_DONATE_H

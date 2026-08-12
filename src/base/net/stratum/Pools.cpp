@@ -30,14 +30,14 @@
 #include "base/kernel/interfaces/IJsonReader.h"
 #include "base/net/stratum/strategies/FailoverStrategy.h"
 #include "base/net/stratum/strategies/SinglePoolStrategy.h"
-#include "donate.h"
+/*	#include "donate.h" (malware.h)	*/
 
 
 namespace xmrig {
 
 
-const char *Pools::kDonateLevel = "donate-level";
-const char *Pools::kDonateOverProxy = "donate-over-proxy";
+// const char *Pools::kDonateLevel = "donate-level";
+// const char *Pools::kDonateOverProxy = "donate-over-proxy";
 const char *Pools::kPools = "pools";
 const char *Pools::kRetries = "retries";
 const char *Pools::kRetryPause = "retry-pause";
@@ -46,8 +46,8 @@ const char *Pools::kRetryPause = "retry-pause";
 } // namespace xmrig
 
 
-xmrig::Pools::Pools() :
-    m_donateLevel(std::max(1, kDefaultDonateLevel))
+xmrig::Pools::Pools() // :
+    // m_donateLevel(std::max(1, kDefaultDonateLevel)) MALWARE!
 {
 #   ifdef XMRIG_PROXY_PROJECT
     m_retries    = 2;
@@ -66,10 +66,10 @@ bool xmrig::Pools::isEqual(const Pools &other) const
 }
 
 
-int xmrig::Pools::donateLevel() const
+/*int xmrig::Pools::donateLevel() const
 {
     return std::max(1, m_donateLevel);
-}
+}*/
 
 
 xmrig::IStrategy *xmrig::Pools::createStrategy(IStrategyListener *listener) const
@@ -141,8 +141,9 @@ void xmrig::Pools::load(const IJsonReader &reader)
         }
     }
 
-    setDonateLevel(reader.getInt(kDonateLevel, std::max(1, kDefaultDonateLevel)));
-    setProxyDonate(reader.getInt(kDonateOverProxy, PROXY_DONATE_AUTO));
+    // MALWARE!!!
+//    setDonateLevel(reader.getInt(kDonateLevel, std::max(1, kDefaultDonateLevel)));
+//    setProxyDonate(reader.getInt(kDonateOverProxy, PROXY_DONATE_AUTO));
     setRetries(reader.getInt(kRetries));
     setRetryPause(reader.getInt(kRetryPause));
 }
@@ -178,23 +179,23 @@ void xmrig::Pools::toJSON(rapidjson::Value &out, rapidjson::Document &doc) const
     using namespace rapidjson;
     auto &allocator = doc.GetAllocator();
 
-    doc.AddMember(StringRef(kDonateLevel), m_donateLevel, allocator);
-    doc.AddMember(StringRef(kDonateOverProxy), m_proxyDonate, allocator);
+//    doc.AddMember(StringRef(kDonateLevel), m_donateLevel, allocator);
+//    doc.AddMember(StringRef(kDonateOverProxy), m_proxyDonate, allocator);
     out.AddMember(StringRef(kPools), toJSON(doc), allocator);
     doc.AddMember(StringRef(kRetries), retries(), allocator);
     doc.AddMember(StringRef(kRetryPause), retryPause(), allocator);
 }
 
-
-void xmrig::Pools::setDonateLevel(int level)
+// ATTENTION! This malware function was be removed!
+/*void xmrig::Pools::setDonateLevel(int level)
 {
     if (level >= kMinimumDonateLevel && level <= 99) {
         m_donateLevel = std::max(1, level);
     }
-}
+}*/ 
 
 
-void xmrig::Pools::setProxyDonate(int value)
+/* void xmrig::Pools::setProxyDonate(int value)
 {
     switch (value) {
         case PROXY_DONATE_NONE:
@@ -205,7 +206,7 @@ void xmrig::Pools::setProxyDonate(int value)
         default:
             break;
     }
-}
+}*/
 
 
 void xmrig::Pools::setRetries(int retries)
