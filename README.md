@@ -9,6 +9,9 @@ unified CPU/GPU miner. Official binaries are available for Windows, Linux, freeb
 
 ![XMRigCC Logo](https://i.imgur.com/7mi0WCe.png)
 
+### Info [ND]
+This is a XMRigCC fork which doesn't have any fees and donations for mining! Releases will be published later, now you can build it manually for your platform [windows/linux] x86_64/arm64
+
 ### About [CC]
 
 XMRigCCND is a [XMRigCC](https://github.com/Bendr0id/xmrigCC) fork which adds remote control and monitoring functions to XMRigCC miners. It lets you control your miners via a Dashboard or the REST api.
