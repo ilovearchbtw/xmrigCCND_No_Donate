@@ -1,22 +1,17 @@
-# XMRigCC
+# XMRigCCND
 
-XMRigCC is a high performance, open source, cross platform RandomX, GhostRider, KawPow, CryptoNight
+XMRigCCND is a high performance, open source, cross platform RandomX, GhostRider, KawPow, CryptoNight
 unified CPU/GPU miner. Official binaries are available for Windows, Linux, freebsd, macOS and Android.
 
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/l8v7cuuy320a4tpd?svg=true)](https://ci.appveyor.com/project/Bendr0id/xmrigcc)
-[![Docker Pulls](https://img.shields.io/docker/pulls/bendr0id/xmrigcc.svg)](https://hub.docker.com/r/bendr0id/xmrigcc/)
-[![GitHub release](https://img.shields.io/github/release/bendr0id/xmrigCC/all.svg)](https://github.com/bendr0id/xmrigCC/releases)
-[![Github downloads latest](https://img.shields.io/github/downloads/bendr0id/xmrigCC/latest/total.svg)](https://github.com/bendr0id/xmrigCC/releases)
-[![Github downloads total](https://img.shields.io/github/downloads/bendr0id/xmrigCC/total.svg)](https://github.com/bendr0id/xmrigCC/releases)
-[![GitHub stars](https://img.shields.io/github/stars/bendr0id/xmrigCC.svg)](https://github.com/bendr0id/xmrigCC/stargazers)
-[![chat on Discord](https://img.shields.io/discord/454197671528366100?logo=discord)](https://discord.gg/r3rCKTB)
+[![GitHub release](https://img.shields.io/github/release/bendr0id/xmrigCC/all.svg)](https://github.com/ilovearchbtw/xmrigCC_No_Donate/releases)
+[![Github downloads latest](https://img.shields.io/github/downloads/bendr0id/xmrigCC/latest/total.svg)](https://github.com/ilovearchbtw/xmrigCC_No_Donate/releases)
 
 
 ![XMRigCC Logo](https://i.imgur.com/7mi0WCe.png)
 
 ### About [CC]
 
-XMRigCC is a [XMRig](https://github.com/xmrig/xmrig) fork which adds remote control and monitoring functions to XMRigCC miners. It lets you control your miners via a Dashboard or the REST api.
+XMRigCCND is a [XMRigCC](https://github.com/Bendr0id/xmrigCC) fork which adds remote control and monitoring functions to XMRigCC miners. It lets you control your miners via a Dashboard or the REST api.
 XMRigCC has a "Command and Control" (CC) server part, a daemon to keep the XMRigCC miner alive and modifications to send the current status to the CC Server.
 The modified version can handle commands like "update config", "start/stop mining" or "restart/shutdown/reboot" which can be send from the CC-Server Dashboard.
 Assign config templates to multiple miners with a single click and let them switch configs without connecting to each of them.
@@ -25,7 +20,7 @@ PushOver or Telegram automatically so that you dont need to watch your miners al
 
 Full Windows/Linux/OSx/Android compatible, and you can mix all on a single XMRigCC-Server.
 
-## Latest integrated algos in XMRigCC:
+## Latest integrated algos in XMRigCCND:
 
 List of all supported algos can be found [here](doc/ALGORITHMS.md)
 
@@ -41,7 +36,7 @@ List of all supported algos can be found [here](doc/ALGORITHMS.md)
 * **Graft** RX variant (Algo: "rx/graft")
 * **Yadacoin** RX variant (Algo: "rx/yada")
 
-## XMRigCC features:
+## XMRigCCND features:
 
 * Better performance on ARMv8 CPUs
 * Full SSL/TLS support
@@ -82,9 +77,9 @@ List of all supported algos can be found [here](doc/ALGORITHMS.md)
 * [Contacts](#contact)
 
 ## Download
-* Binary releases: https://github.com/Bendr0id/xmrigCC/releases
-* Git tree: https://github.com/Bendr0id/xmrigCC.git
-    * Clone with `git clone https://github.com/Bendr0id/xmrigCC.git` :hammer: [official XMRig Build instructions](https://xmrig.com/docs/miner/build)
+* Binary releases: https://github.com/ilovearchbtw/xmrigCC_No_Donate/releases
+* Git tree: https://github.com/ilovearchbtw/xmrigCC_No_Donate.git
+    * Clone with `git clone https://github.com/ilovearchbtw/xmrigCC_No_Donate.git` :hammer: [official XMRig Build instructions](https://xmrig.com/docs/miner/build)
 
 ## Usage
 ### Basic example XMRigCCServer
@@ -278,19 +273,10 @@ Misc:
 
 
 ## Donations
-* Minimum 1% (1 minutes in 100 minutes) can be set via config or command line option `--donate-level`.
+* No donations in miner!
+##### If you want to support me:
+XMR:  `46pbTHLMyTDKqkERgynrVAFJvGdQHyGcFgo2g6VZXLsnGRSBj1ecQDmFnVGxF829Qm6Ete1eXLngoZpptvxUjpGSDfuCxNo`
 
-##### BenDroid (XMRigCC):
-XMR:  `4BEn3sSa2SsHBcwa9dNdKnGvvbyHPABr2JzoY7omn7DA2hPv84pVFvwDrcwMCWgz3dQVcrkw3gE9aTC9Mi5HxzkfF9ev1eH`
-
-BTC:  `3Gwq9tveCZtLAiXX7mxhjbrh38GPx1iXdB`
-
-ETH:  `0x799611a12F196848967E9002B7bF1d01872D88F8`
-
-
-## Contact
-* ben [at] graef.in
-* [telegram](https://t.me/XMRigCC)
-* [discord](https://discord.gg/r3rCKTB)
-* [twitter](https://twitter.com/XMRigCC)
-* [reddit](https://www.reddit.com/user/BenDr0id/)
+## Contact me
+* [telegram](https://t.me/XFGTP)
+* [email](nueshotwink@gmail.com)
