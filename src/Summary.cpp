@@ -84,7 +84,6 @@ static void print_pages(const Config *config)
 #   endif
 }
 
-
 static void print_cpu(const Config *)
 {
     const auto info = Cpu::info();
