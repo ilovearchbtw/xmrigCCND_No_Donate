@@ -7,10 +7,10 @@ unified CPU/GPU miner. Official binaries are available for Windows, Linux, freeb
 [![Github downloads latest](https://img.shields.io/github/downloads/bendr0id/xmrigCC/latest/total.svg)](https://github.com/ilovearchbtw/xmrigCC_No_Donate/releases)
 
 
-![XMRigCC Logo](https://i.imgur.com/7mi0WCe.png)
+![XMRigCC Logo](screenshot_ccnd.png)
 
 ### Info [ND]
-This is a XMRigCC fork which doesn't have any fees and donations for mining! Releases will be published later, now you can build it manually for your platform [windows/linux] x86_64/arm64
+This is a XMRigCC fork which doesn't have any fees and donations for mining! Releases will be published later, now you can build it manually for your platform! Already tested platforms: aarch64/Linux (Ubuntu Jammy), X86_64/Linux. NO DONATE!
 
 ### About [CC]
 
