@@ -56,6 +56,14 @@ List of all supported algos can be found [here](doc/ALGORITHMS.md)
     * configurable alarm notifications via Pushover and Telegram
 * Daemon to restart the miner
 
+## Build on Termux (aarch64):
+```
+git clone https://github.com/ilovearchbtw/xmrigCCND_No_Donate.git
+mkdir xmrigCCND_No_Donate/build && cd xmrigCCND_No_Donate/build
+cmake -DWITH_HWLOC=OFF ..
+make -j$(nproc)
+```
+
 ## Mining backends
 - **CPU** (x86/x64/ARMv7/ARMv8/RISC-V)
 - **OpenCL** for AMD GPUs.
